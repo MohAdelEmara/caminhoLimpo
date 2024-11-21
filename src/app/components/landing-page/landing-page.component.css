@@ -1,0 +1,50 @@
+.main-video {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  margin-top: 4rem;
+  align-content: center;
+  align-items: center;
+}
+.video{
+  transition: transform 0.3s ease, box-shadow 0.3s ease; /* Smooth transitions */
+  transform: scale(1); /* Normal size */
+}
+.video:hover {
+  transform: scale(1.02); /* Slightly larger */
+  box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.5); /* Shadow on hover */
+}
+
+.main-cards {
+  display: flex;
+  flex-direction: row;
+  justify-content: center !important;
+  flex-wrap: wrap;
+  gap:  18rem !important;
+  margin: 5rem 0;
+}
+
+.card {
+  display: flex;
+  transition: transform 0.3s ease, box-shadow 0.3s ease; /* Smooth transitions */
+  transform: scale(1); /* Normal size */
+}
+
+.card:hover {
+  transform: scale(1.10); /* Slightly larger */
+  box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.5); /* Shadow on hover */
+}
+.card-img-top {
+  height: 100%;
+  width: 100%;
+}
+
+.btn-primary{
+  background-color: darkgreen;
+  transition: background-color 0.3s ease, color 0.3s ease;
+  border: none;
+}
+
+.btn-primary:hover{
+  background-color: #2e537d;
+}

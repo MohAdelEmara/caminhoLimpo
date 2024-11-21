@@ -1,3 +1,5 @@
+
+
 .container-fluid {
   margin: 1rem;
   align-items: center;
@@ -15,6 +17,7 @@
 }
 
 a {
+  color: white;
   text-decoration: none;
   margin-right: 4rem;
   transition: color 0.3s ease;
