@@ -1,0 +1,28 @@
+.container-fluid {
+  margin: 1rem;
+  align-items: center;
+}
+
+.navbar-brand {
+  font-size: x-large;
+  font-weight: bolder;
+  padding-left: 4rem;
+}
+
+.collapse {
+  font-size: x-large;
+  justify-content: right;
+}
+
+a {
+  text-decoration: none;
+  margin-right: 4rem;
+  transition: color 0.3s ease;
+}
+
+a:hover {
+  color: #b7d136;
+}
+a:after {
+  text-decoration: none;
+}
